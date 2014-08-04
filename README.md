@@ -1,10 +1,8 @@
-Flask-Logging
-============
+## Flask-Logging
 
 Filter certain requests from the Flask log. Useful during development when requests fill up with /static/ URLs.
 
-Usage
-=====
+#### Usage
 
 ```
 from flask.ext.logging import Filter
