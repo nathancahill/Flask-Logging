@@ -1,6 +1,6 @@
 ## Flask-Logging
 
-Filter certain requests from the Flask log. Useful during development when requests fill up with /static/ URLs.
+Filter certain requests from the Flask log. Useful during development when requests fill up with /static/ URLs. Not for use in production, Flask-Logging monkey patches the ```werkzeug``` logging function.
 
 #### Usage
 
