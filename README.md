@@ -22,3 +22,10 @@ Filtering more than one word:
 ```
 filter = Filter('static', 'admin')
 ```
+
+Updating the filter:
+
+```
+filter = Filter('static')
+filter.filters = 'static', 'admin'
+```
