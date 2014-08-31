@@ -9,4 +9,5 @@ setup(
     author='Nathan Cahill',
     author_email='nathan@nathancahill.com',
     long_description=open('README').read(),
+    description='Filter certain requests from the Flask log.',
 )
