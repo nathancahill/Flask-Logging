@@ -11,7 +11,7 @@ pip install flask-logging
 #### Usage
 
 ```
-from flask.ext.logging import Filter
+from flask_logging import Filter
 filter = Filter('static')
 ```
 
